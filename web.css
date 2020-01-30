@@ -1,0 +1,61 @@
+
+body {
+	
+}
+.navbar-brand img {
+	width: 150;
+	height: 57px;
+}
+.navbar {
+  background-color: aqua;
+  height: 70px;
+}
+.btn {
+ color: black;
+ font-weight: bold;
+
+}
+.carousel-item img {
+	width: 100%;
+	height: 540px;
+}
+.lead {
+	text-align: center;
+}
+.fas {
+  font-color: red;	
+}
+.navbar-brand a {
+  color: maroon;	
+  text-decoration: none;
+}
+.nav-link {
+  background-color: maroon;	
+  border-radius: 12px;
+  margin: 4px;
+  color: white;
+  font-weight: bold;
+}
+.nav-link:hover {
+  background-color: gold;		
+}
+#love {
+ width: 90%;
+}
+.display-2 {
+	font-weight: bold;
+}
+.card-img-top {
+width: 370px;
+height: 470px;
+}
+.card {
+	width: 370px;
+	height: 100%;
+}
+.card-text, .card-title, .card-body{
+  text-align: center;
+}
+.praise {
+	margin: 0 auto;
+}
