@@ -2,7 +2,7 @@
 body {
 	
 }
-.navbar-brand img {
+.navbar-brand img, footer img {
 	width: 150;
 	height: 57px;
 }
@@ -58,4 +58,8 @@ height: 470px;
 }
 .praise {
 	margin: 0 auto;
+}
+.col-lg-6 #Glory {
+ height: 70%;
+ padding-top: 50px;
 }
