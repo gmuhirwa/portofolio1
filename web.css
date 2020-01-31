@@ -115,7 +115,14 @@ html, body {
   border-radius: 2em;
   border: 2px solid black;
   }
-.display-2 {
+  .card .btn {
+  	background-color: maroon;
+    color: white;
+  } 
+  .card .btn:hover {
+  	background-color: green;
+  } 
+  .display-2 {
   font-weight: bold;
   text-shadow: 1px 1px 10px #000;
 }
@@ -176,8 +183,9 @@ height: 480px;
   font-size: 24px;
 }
 .col-lg-6 #Glory {
- height: 70%;
- padding-top: 50px;
+ height: 102%;
+ width: 90%;
+ padding-top: 4px;
 }
 .col-lg-6 {
   background-color: maroon;
