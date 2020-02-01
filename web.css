@@ -21,6 +21,11 @@ html, body {
 .navbar-nav li {
   padding-right: 14px;
 }
+.navbar-collapse {
+ text-align: center;
+ background-color: white;
+ border-radius: 2em;
+}
 .btn {
  color: black;
  font-weight: bold;
