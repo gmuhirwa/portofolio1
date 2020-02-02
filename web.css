@@ -21,11 +21,6 @@
 .navbar-nav li {
   padding-right: 14px;
 }
-.navbar-collapse {
- text-align: center;
- background-color: white;
- border-radius: 2em;
-}
 .btn {
  color: black;
  font-weight: bold;
@@ -371,11 +366,15 @@ hr.light-100 {
 @media (max-width: 430px) {
 body {
   float: none;
+  position: fixed;
 }
 .social a {
   font-size: 2em;
   padding: .4rem; 
-}	
+}
+.collapse {
+  position: fixed;
+}
 .col-lg-6 {
   text-align: center;
   text-align: justify;
@@ -392,11 +391,7 @@ body {
   margin-left: 34%;
   border-radius: 2em;
   border: 2px solid black;
-  }
-#love {
-  width: 100%;
-  border-radius: 3em;
-  }
+ }
   .btn-outline-secondary {
   	background-color: maroon;
   	color: white;
@@ -461,6 +456,8 @@ body {
  div > h5 {
    font-size: 17px;    
     }
+    #lovenow {
+    margin-left: 97px;
   }
 @media (min-width: 431px) and (max-width: 767px) {
 	body {
