@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:400, 500, 700");
 
-html, body {
+*html, body {
  height: 100%;
  width: 100%;
  margin-right: 0;
@@ -193,6 +193,7 @@ height: 480px;
  height: 102%;
  width: 90%;
  padding-top: 4px;
+ margin-left: 17px;
 }
 .col-lg-6 {
   background-color: maroon;
@@ -344,7 +345,10 @@ hr.light-100 {
 }
 
 @media (max-width: 768px) {
-	
+  body {
+		float: none;
+		clear: both;
+}
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -361,6 +365,9 @@ hr.light-100 {
   }  
 }
 @media (max-width: 430px) {
+body {
+  float: none;
+}
 .social a {
   font-size: 2em;
   padding: .4rem; 
@@ -447,8 +454,15 @@ hr.light-100 {
   	padding-bottom: 12px;
   	margin-left: 62px;
     }
+ div > h5 {
+   font-size: 17px;    
+    }
   }
 @media (min-width: 431px) and (max-width: 767px) {
+	body {
+		float: none;
+		clear: both;
+	}
   .social a {
   font-size: 2.7em;
   padding: 1rem;
