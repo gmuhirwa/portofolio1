@@ -273,6 +273,10 @@ hr.light-100 {
 body {
   overflow-x: hidden;
 }
+.nav-link {
+   width: 69px;
+   text-align: center;
+  }
 .carousel-caption {
   position: absolute;
   top: 50%;
@@ -289,9 +293,72 @@ body {
   padding: 8px 14px;
   }  
 }
+@media (min-width: 431px) and (max-width: 575px) {
+.navbar {
+	height: auto;
+
+   }
+   .navbar li {
+   	margin-left: 50%;
+   }
+}
+@media(min-width: 589px) and (max-width: 769px) {
+	body {
+		height: auto;
+	}
+  .navbar li {
+  	font-size: 12px;
+  	margin-left: 7px;
+  	
+  }
+  .navbar-brand h1 {
+  	font-size: 20px;
+  }
+.nav-link {
+	width: 57px;
+	margin-left: 4px;
+	text-align: center;
+  }
+  .navbar-nav li {
+  padding-right: 0px;
+
+ }
+ .navbar-brand {
+ 	margin-left: -7px;
+ }
+}
+@media(min-width: 576px) and (max-width: 588px) {
+	body {
+		height: auto;
+	}
+  .navbar li {
+  	font-size: 12px;
+  	margin-left: 7px;
+  	
+  }
+  .navbar-brand h1 {
+  	font-size: 20px;
+  }
+.nav-link {
+	width: 57px;
+	margin-left: 4px;
+	text-align: center;
+  }
+  .navbar-nav li {
+  padding-right: 0px;
+
+ }
+ .navbar-brand {
+ 	margin-left: -14px;
+ }
+}
 @media (max-width: 430px) {
 body {
   overflow-x: hidden;
+  }
+  body {
+		height: auto;
+	
 }
 .nav-link {
   width: 27%;
@@ -382,6 +449,7 @@ body {
 
 @media (max-width: 768px) {
   body {
+  	height: auto;
  overflow-x: hidden;
 }
 .carousel-caption {
