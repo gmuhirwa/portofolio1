@@ -334,6 +334,10 @@ hr.light-100 {
   .navbar-brand img {
   	padding-right: 34px;
   }
+  #love {
+    margin-left: 1px;
+    padding-top: -8px;
+    padding-bottom: 1px;
 }
 /* ----- The Media Queries ---- */
 
