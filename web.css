@@ -269,10 +269,14 @@ hr.light-100 {
 }
 
 @media (max-width: 768px) {
-	
+
+body {
+  overflow-x: hidden;
+}
 .carousel-caption {
   position: absolute;
   top: 50%;
+
 }
 .carousel-caption h3 {
   font-size: 140%;
@@ -286,13 +290,15 @@ hr.light-100 {
   }  
 }
 @media (max-width: 430px) {
+body {
+  overflow-x: hidden;
+}
 .nav-link {
   width: 27%;
   margin: 0 auto;
   }
 .navbar {
 	height:auto;
-	background-color: maroon;
 }
 .navbar-brand img {
   margin-top: 2px;
