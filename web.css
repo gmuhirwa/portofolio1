@@ -365,15 +365,12 @@ hr.light-100 {
 }
 @media (max-width: 430px) {
 body {
-  float: none;
-  position: fixed;
+
 }
 .social a {
   font-size: 2em;
   padding: .4rem; 
-}
-.collapse {
-  position: fixed;
+
 }
 .col-lg-6 {
   text-align: center;
