@@ -77,7 +77,12 @@
   font-size: 1.1em !important;
 }
 .nav-link:hover {
-  background-color: gold;		
+  background-color: aqua;	
+  border: 1px solid black;	
+  border-radius: .7em;
+  opacity: .7em;
+  font-weight: bold;
+  text-align: center;
 }
 #love {
  width: 90%;
@@ -375,6 +380,12 @@ overflow-x: hidden;
 }
 .collapse {
   position: fixed;	
+  margin-left: 40%;
+  padding-top: 237px;
+}
+.collapse:hover {
+  
+  height: 57%;
 }
 .social a {
   font-size: 2em;

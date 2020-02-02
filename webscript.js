@@ -1,3 +1,6 @@
-$(function () { // Same as document.addEventListener("DOMContentLoaded"...
+
+$('.navbar-toggle').on("click", function(){
+    $('#navbarResponsive').slideToggle();
+});
 
  
