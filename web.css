@@ -73,16 +73,21 @@
   text-decoration: none;
 }
 .nav-link {
-  	
-  font-size: 1.1em !important;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: .7em;
+  height: 30px;
+  color: white;	
+  text-align: center;
+  padding-top: 2px;
 }
 .nav-link:hover {
-  background-color: aqua;	
+  background-color: gold;
   border: 1px solid black;	
   border-radius: .7em;
   opacity: .7em;
   font-weight: bold;
-  text-align: center;
+  
 }
 #love {
  width: 90%;
@@ -281,6 +286,17 @@ hr.light-100 {
   }  
 }
 @media (max-width: 430px) {
+.nav-link {
+  width: 27%;
+  margin: 0 auto;
+
+}
+.navbar-brand img {
+  margin-top: 2px;
+}
+.navbar-brand {
+ margin-right: 120px;
+}
 .social a {
   font-size: 2em;
   padding: .4rem; 
@@ -377,15 +393,6 @@ hr.light-100 {
 @media (max-width: 430px) {
 body {
 overflow-x: hidden;
-}
-.collapse {
-  position: fixed;	
-  margin-left: 40%;
-  padding-top: 237px;
-}
-.collapse:hover {
-  
-  height: 57%;
 }
 .social a {
   font-size: 2em;
